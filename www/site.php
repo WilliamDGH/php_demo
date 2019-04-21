@@ -6,5 +6,11 @@
   </head>
   <body>
 
+    <?php
+      echo "
+      <h1>My Site</h1>
+      <p>This is my site</p>
+      ";
+     ?>
   </body>
 </html>
