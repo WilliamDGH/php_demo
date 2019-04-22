@@ -11,6 +11,7 @@
       <h1>My Site</h1>
       <p>This is my site</p>
       <p>Welcome to my site</p>
+      <hr>
       ";
      ?>
   </body>
