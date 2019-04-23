@@ -7,12 +7,13 @@
   <body>
 
     <?php
-      echo "
-      <h1>My Site</h1>
-      <p>This is my site</p>
-      <p>Welcome to my site</p>
-      <hr>
-      ";
+      $characterName = "John";
+      $characterAge = 35;
+      echo "<h1>My Site</h1>";
+      echo "<p>This is my site</p>";
+      echo "<p>Welcome to $characterName's site</p>";
+      echo "<p>$characterName's age is $characterAge</p>";      
+      echo "<hr>";
      ?>
   </body>
 </html>
