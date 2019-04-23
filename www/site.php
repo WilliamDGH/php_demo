@@ -9,10 +9,12 @@
     <?php
       $characterName = "John";
       $characterAge = 35;
+      $phrase= "";
+
       echo "<h1>My Site</h1>";
       echo "<p>This is my site</p>";
       echo "<p>Welcome to $characterName's site</p>";
-      echo "<p>$characterName's age is $characterAge</p>";      
+      echo strtoupper("<p>$characterName's age is $characterAge</p>");
       echo "<hr>";
      ?>
   </body>
