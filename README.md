@@ -1,5 +1,7 @@
 # Digistorm Junior Dev Test
 
+Hosted [Here](http://digistorm-gallery.epizy.com/?i=1)
+
 A PHP app that reads the image files from a set directory and display them on browser.
 
 It can detect file type and only select image files, it will go down the file path to scan for all sub directories as well.
