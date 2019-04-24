@@ -1,0 +1,41 @@
+header {
+  background-image:linear-gradient(-229deg,#88B4DE 0,#5D99D3 32%,#5C98D3 33%,#488BCD 100%);
+  text-align: center;
+  height: 5vh;
+}
+
+
+#title {
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+main {
+  margin-top: 20vh;
+}
+
+.image-container {
+  margin: 0 auto;
+  max-width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.thumbnail {
+  height: 10vh;
+  margin-bottom: 1em;
+}
+
+.thumbnail:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  height: 5vh;
+  background-color: #F3F5F8;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
