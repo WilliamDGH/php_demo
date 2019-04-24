@@ -16,17 +16,24 @@
 
     <main>
       <div class="image-container">
+
+        <!-- Begin of PHP code -->
         <?php
+        // The image directory
          $dir = new RecursiveDirectoryIterator("images");
 
+         // Iterate through sub directories
          foreach (new RecursiveIteratorIterator($dir) as $filename => $file) {
-           // echo $filename . ' - ' . $file->getSize() . ' bytes <br/>';
+           // Check if file was image file type
            if (exif_imagetype($filename) != FALSE) {
+             // Output the image as a HTML element
              echo "<img src=$filename class='thumbnail'>";
            }
          }
 
          ?>
+         <!-- End of PHP -->
+
       </div>
     </main>
 
@@ -45,6 +52,7 @@
       <p>Created by <a href="http://www.guanhuading.com/" target="_blank">Guanhua Ding</a> for Dev Test of <a href="https://www.digistorm.com.au/" target="_blank">Digistorm</a></p>
     </footer>
 
+    <!-- Image Preview JavaScript Code -->
     <script type="text/javascript" src="js/preview.js"></script>
   </body>
 </html>
