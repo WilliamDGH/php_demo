@@ -36,7 +36,8 @@
     </div>
 
     <aside>
-      <p>Vist <a href="">github page</a> for source code</p>
+      <p>Images are scanned and selected by PHP script</p>
+      <button>Vist <a href="https://github.com/WilliamDGH/php_demo">github page</a> for source code</button>
     </aside>
 
     <footer>
